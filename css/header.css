@@ -1,0 +1,74 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "klavika-web",sans-serif;
+  width: 100%;
+}
+.wrap{
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+header{
+  min-width: 1300px;
+  text-align: center;
+}
+header .logo img{
+  width: 300px;
+  height: 80px;
+}
+header .logo{
+  padding: 100px 0 10px 0;
+}
+header .nav{
+  padding-bottom: 30px;
+}
+header .nav ul{
+  width: 800px;
+  margin:30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .nav ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  color:#333;
+}
+
+
+
+.fixed-menu{
+  position: fixed;
+  text-align: center;
+  font-size: 14px;
+  top: 70px;
+  right: 35px;
+  margin-left: 750px;
+}
+.fixed-menu li{
+  margin-bottom: 10px;
+}
+
+/*hover*/
+header .logo h1:hover,
+header .nav ul a:hover{
+  color: #f2a4b9;
+}
+header .nav .on a{
+  color: #f2a4b9;
+  border-bottom: 2px solid #f2a4b9;
+}
+

@@ -1,0 +1,68 @@
+footer{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(17, 17, 17);
+  margin-top: 50px;
+}
+footer .foo-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foo-banner .icons ul{
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+}
+footer .foo-logo-img img{
+  width: 300px;
+  height: 80px;
+  margin: 40px 50px 0 0;
+  cursor: pointer;
+}
+
+footer .foo-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+footer .foo-links .links{
+  padding: 40px  80px;
+}
+footer .foo-links .links h6{
+  color: #f1f1f1;
+  font-size: 20px;
+}
+footer .foo-links .links ul a{
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: bold;
+}
+footer .foo-links .foo-txt ul{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+footer .foo-links .foo-txt{
+  padding-right: 50px;
+}
+footer .foo-links .foo-txt a,
+footer .foo-links .foo-txt p{
+  color: #f1f1f1;
+  font-size: 14px;
+}
+
+#bigLogo{
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+/*hover*/
+footer .foo-links .links h6:hover,
+footer .foo-links .links a:hover{
+  color: #f2a4b9;
+}
